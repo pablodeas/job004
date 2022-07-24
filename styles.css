@@ -1,5 +1,8 @@
 body{
     background-color:  #00AFEF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* O link do cabeçalho */
@@ -28,7 +31,7 @@ body{
  }
  
  .link:hover {
-    background: #FFA803;
+    background: chocolate;
     border: solid #FFFFFF 1px;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -37,21 +40,10 @@ body{
  }
 
 /* A Imagem em si */
-.image {
+.image{
     background-image: url(./images/background2.png);
-    background-size: cover;
-    background-position: center;
-    height: 110vh;
     width: 100%;
-}
-
-/* Formulário */
-.formulario{
-    display: inline-block;
-    margin-top: 30px;
-    height: 300px;
-    width: 250px;
-    background-color: black;
+    height: 43em;
 }
 
 /* Rodapé */
@@ -66,6 +58,6 @@ footer{
 }
 span{
     font-family: Open Sans;
-    font-weight: 800;
-    color: #f03131;
+    font-weight: bold;
+    color: chocolate;
 }
